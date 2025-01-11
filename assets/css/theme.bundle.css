@@ -17082,7 +17082,6 @@ a:focus,button:focus {
 
 .dropleft>.dropdown-toggle:before {
     border: none!important;
-    content: "";
     font-family: Feather;
     height: auto;
     vertical-align: middle;
@@ -17947,7 +17946,8 @@ a:focus,button:focus {
     }
 
     .navbar-vertical.navbar-expand-sm .navbar-brand-img {
-        max-height: 3rem
+        width: 100px;
+        margin-top: -17px;
     }
 
     .navbar-vertical.navbar-expand-sm .navbar-user {
@@ -21770,3 +21770,22 @@ a:focus,button:focus {
 }
 
 /*# sourceMappingURL=theme.bundle.css.map*/
+
+.sidebar{
+    width: 10%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 28px;
+}
+
+header{
+
+}
+.navbar-brand-img {
+    height: 200p;
+}
