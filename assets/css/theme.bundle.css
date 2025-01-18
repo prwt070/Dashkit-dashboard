@@ -18717,7 +18717,7 @@ a:focus,button:focus {
     flex-direction: row;
     height: 60px;
     padding-bottom: calc(var(--bs-card-spacer-y)*.5);
-    padding-top: calc(var(--bs-card-spacer-y)*.5)
+    padding-top: calc(var(--bs-card-spacer-y)*.5);
 }
 
 .card-header>:first-child {
@@ -19479,10 +19479,8 @@ a:focus,button:focus {
 }
 
 .avatar-img {
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    width: 100%
+    height: 100px;
+    width: 100px;
 }
 
 .avatar-title {
@@ -19817,6 +19815,10 @@ a:focus,button:focus {
     width: 20%
 }
 
+.container1{
+    margin: auto 300px;
+}
+
 .container-fluid.kanban-container,.kanban-container.container-lg,.kanban-container.container-md,.kanban-container.container-sm,.kanban-container.container-xl {
     min-height: calc(100vh - 129px)
 }
@@ -19916,11 +19918,11 @@ a:focus,button:focus {
     :has(.navbar-vertical.navbar-expand-lg.fixed-start:not([style*="display: none"]))~.main-content {
         margin-left:var(--bs-navbar-vertical-width)
     }
+    }
 
     :has(.navbar-vertical.navbar-expand-lg.fixed-end:not([style*="display: none"]))~.main-content {
         margin-right: var(--bs-navbar-vertical-width)
     }
-}
 
 @media(min-width: 1200px) {
     :has(.navbar-vertical.navbar-expand-xl.fixed-start:not([style*="display: none"]))~.main-content {
@@ -20506,10 +20508,6 @@ a:focus,button:focus {
     content: ""
 }
 
-.fe-dollar-sign:before {
-    content: ""
-}
-
 .fe-download:before {
     content: ""
 }
@@ -20818,9 +20816,6 @@ a:focus,button:focus {
     content: ""
 }
 
-.fe-more-vertical:before {
-    content: ""
-}
 
 .fe-mouse-pointer:before {
     content: ""
@@ -20972,10 +20967,6 @@ a:focus,button:focus {
 
 .fe-scissors:before {
     content: ""
-}
-
-.fe-search:before {
-    content: ""
 }
 
 .fe-send:before {
@@ -21783,9 +21774,18 @@ a:focus,button:focus {
     margin: 0px 28px;
 }
 
-header{
-
-}
 .navbar-brand-img {
     height: 200p;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+
+#chart2{
+    display: flex;
+    margin: 80px 350px;
 }

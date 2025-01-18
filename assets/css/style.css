@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 20%;
+    margin-top: 100px;
+    margin-left: 700px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+i{
+    padding-left: 200px;
+}
+
+label{
+    margin-right: 55px;
+}
+
+input{
+    margin-left: 55px;
+}
+
+form{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 270px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
+}
+
+.form-control{
+    width: 70%;
+    border-radius: 35px;
+}
+
+.btn1{
+    border-radius: 30px;
+    width: 70%;
+    border: none;
+    padding: 10px 10px;
+    margin-right: 50px;
+}
