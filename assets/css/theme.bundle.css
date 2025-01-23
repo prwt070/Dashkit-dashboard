@@ -19633,6 +19633,10 @@ a:focus,button:focus {
     width: .5rem
 }
 
+i{
+    margin: 0 4px;
+}
+
 #chart-tooltip {
     position: absolute;
     z-index: 0
